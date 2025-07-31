@@ -45,7 +45,6 @@ jobs:
         name: Jacoco coverage results
         path: target/site/jacoco
 
- 
     - name: Cache build
       uses: actions/cache@v3
       with:
